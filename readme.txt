@@ -12,7 +12,9 @@ Add related tags on tag page, based on posts with this tag.
 
 == Description ==
 
-Add related tags list(link list, text list, or cloud-style list) on the tag page, based on posts that have this tag. 
+Add related tags list(link list, text list, or cloud-style list) on the tag page, based on posts that have this tag.
+
+When you open tag page i.e example.com/tag/facebook plugin checks post that have tag "Facebook", count another tags, and put the related list.
 
 
 == Installation ==
@@ -39,15 +41,16 @@ getListRelatedTags(true);
 if (function_exists('reltags_getCloudRelatedTags')) {
 getCloudRelatedTags($args);
 }
-?>` - if you need cloud links-style to realted tags.
+?>` - if you need cloud links-style to related tags.
 $args - the same with  wp_tag_cloud
 
 
 == Frequently Asked Questions ==
 
 
+== Screenshots ==
 
-
+1. screenshot-1.png
 
 == Changelog ==
 
