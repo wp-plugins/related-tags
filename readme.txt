@@ -2,7 +2,6 @@
 Contributors: sneg55
 Donate link: http://sawinyh.com/
 Tags: tags, seo, related, google, search engine optimization, sidebar, widget
-
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable tag: trunk
@@ -18,6 +17,9 @@ Add "related" tags list(link list, plain text list, or my favourite cloud-style 
 When you open tag page i.e example.com/tag/facebook, plugin checking posts that marked with tag "Facebook", check the other tags in these posts, and put the related tag list back.
 
  `[youtube http://www.youtube.com/watch?v=ogKhVaVrvzo]`
+
+ 
+Sometimes related tags more useful for users and for SEO purposes.
 
 == Installation ==
 
@@ -51,6 +53,8 @@ if (function_exists('reltags_getListRelatedTags')) {
 reltags_getListRelatedTags(true);
 }
 ?>`
+
+Also you can use widget in your sidebar (but keep in mind it shows on only on the tag page).
 
 
  `[youtube http://www.youtube.com/watch?v=ogKhVaVrvzo]`
